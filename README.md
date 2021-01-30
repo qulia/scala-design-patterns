@@ -13,49 +13,49 @@ The source code for the book is presented as amulti-module Maven project and it 
 
 2. Chapter 2 - Traits and Mixin Compositions.
 
-    a. Module name: **traits**.
+    a. Module name: [**traits**](traits).
 
 3. Chapter 3 - Unification.
 
-    a. Module name: **unification**.
+    a. Module name: [**unification**](unification).
 
 4. Chapter 4 - Abstract and Self Types.
 
-    a. Module name: **abstract-types**.
+    a. Module name: [**abstract-types**](abstract-types).
 
 5. Chapter 5 - Aspect Oriented Programming and Components.
 
-    a. Module name: **aop**.
+    a. Module name: [**aop**](aop).
 
 6. Chapter 6 - Creational Design Patterns.
 
-    a. Module name: **creational-design-patterns**.
+    a. Module name: [**creational-design-patterns**](creational-design-patterns).
 
 7. Chapter 7 - Structural Design Patterns.
 
-    a. Module name: **structural-design-patterns**.
+    a. Module name: [**structural-design-patterns**](structural-design-patterns).
 
 8. Chapter 8 - Behavioral Design Patterns - Part 1.
 
-    a. Module name: **behavioral-design-patterns**.
+    a. Module name: [**behavioral-design-patterns**](behavioral-design-patterns).
 
 9. Chapter 9 - Behavioral Design Patterns - Part 2.
 
-    a. Module name: **behavioral-design-patterns**.
+    a. Module name: [**behavioral-design-patterns**](behavioral-design-patterns).
 
 10. Chapter 10 - Functional Design Patterns – The Deep Theory.
 
-    a. Module name: **deep-theory**.
+    a. Module name: [**deep-theory**](deep-theory).
 
 11. Chapter 11 - Functional Design Patterns – Applying What We Learned.
 
-    a. Module name: **functional-design-patterns**.
+    a. Module name: [**functional-design-patterns**](functional-design-patterns).
 
 12. Chapter 12 - Real Life Applications.
 
-    a. Module name: **real-life-applications**.
+    a. Module name: [**real-life-applications**](real-life-applications).
     
-    b. Module name: **job-scheduler**.
+    b. Module name: [**job-scheduler**](job-scheduler).
 
 ### Running the Code
 
