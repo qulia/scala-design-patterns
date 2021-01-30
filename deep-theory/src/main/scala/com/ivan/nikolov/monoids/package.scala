@@ -43,7 +43,7 @@ package object monoids {
 
     def foldMap[T, Y](list: List[T], m: Monoid[Y])(f: T => Y): Y =
       list.foldLeft(m.zero) {
-        case (t, y) => m.op(t, f(y))
+        case (y, t) => m.op(y, f(t))
       }
 
     def foldPar[T](list: List[T], m: Monoid[T]): T =
@@ -51,7 +51,7 @@ package object monoids {
 
     def foldMapPar[T, Y](list: List[T], m: Monoid[Y])(f: T => Y): Y =
       list.par.foldLeft(m.zero) {
-        case (t, y) => m.op(t, f(y))
+        case (y, t) => m.op(y, f(t))
       }
     
     def balancedFold[T, Y](list: IndexedSeq[T], m: Monoid[Y])(f: T => Y): Y =
